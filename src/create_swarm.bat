@@ -1,0 +1,1 @@
+devtools\bin\vpc.exe /swarm +game /mksln Swarm.sln

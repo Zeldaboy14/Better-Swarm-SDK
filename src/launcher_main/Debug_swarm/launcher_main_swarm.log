@@ -1,0 +1,144 @@
+﻿  main.cpp
+c:\program files (x86)\microsoft visual studio 12.0\vc\include\xlocale(337): error C2220: warning treated as error - no 'object' file generated
+c:\program files (x86)\microsoft visual studio 12.0\vc\include\xlocale(337): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+d:\github\better_swarm_sdk\src\public\tier0\platform.h(286): warning C4005: 'INT8_MAX' : macro redefinition
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdint.h(61) : see previous definition of 'INT8_MAX'
+d:\github\better_swarm_sdk\src\public\tier0\platform.h(287): warning C4005: 'INT16_MAX' : macro redefinition
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdint.h(62) : see previous definition of 'INT16_MAX'
+d:\github\better_swarm_sdk\src\public\tier0\platform.h(288): warning C4005: 'INT32_MAX' : macro redefinition
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdint.h(63) : see previous definition of 'INT32_MAX'
+d:\github\better_swarm_sdk\src\public\tier0\platform.h(289): warning C4005: 'INT64_MAX' : macro redefinition
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdint.h(64) : see previous definition of 'INT64_MAX'
+d:\github\better_swarm_sdk\src\public\tier0\platform.h(291): warning C4005: 'INT8_MIN' : macro redefinition
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdint.h(57) : see previous definition of 'INT8_MIN'
+d:\github\better_swarm_sdk\src\public\tier0\platform.h(292): warning C4005: 'INT16_MIN' : macro redefinition
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdint.h(58) : see previous definition of 'INT16_MIN'
+d:\github\better_swarm_sdk\src\public\tier0\platform.h(293): warning C4005: 'INT32_MIN' : macro redefinition
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdint.h(59) : see previous definition of 'INT32_MIN'
+d:\github\better_swarm_sdk\src\public\tier0\platform.h(294): warning C4005: 'INT64_MIN' : macro redefinition
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdint.h(60) : see previous definition of 'INT64_MIN'
+d:\github\better_swarm_sdk\src\public\tier0\platform.h(296): warning C4005: 'UINT8_MAX' : macro redefinition
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdint.h(65) : see previous definition of 'UINT8_MAX'
+d:\github\better_swarm_sdk\src\public\tier0\platform.h(297): warning C4005: 'UINT16_MAX' : macro redefinition
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdint.h(66) : see previous definition of 'UINT16_MAX'
+d:\github\better_swarm_sdk\src\public\tier0\platform.h(298): warning C4005: 'UINT32_MAX' : macro redefinition
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdint.h(67) : see previous definition of 'UINT32_MAX'
+d:\github\better_swarm_sdk\src\public\tier0\platform.h(299): warning C4005: 'UINT64_MAX' : macro redefinition
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdint.h(68) : see previous definition of 'UINT64_MAX'
+d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(113): warning C4161: #pragma pack(pop...) : more pops than pushes
+d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(86): error C2995: 'CCallResult<T,P>::CCallResult(void)' : function template has already been defined
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_common.h(176) : see declaration of 'CCallResult<T,P>::CCallResult'
+d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(92): error C2995: 'bool CCallResult<T,P>::IsActive(void) const' : function template has already been defined
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_common.h(180) : see declaration of 'CCallResult<T,P>::IsActive'
+d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(98): error C2995: 'CCallResult<T,P>::~CCallResult(void)' : function template has already been defined
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_common.h(177) : see declaration of 'CCallResult<T,P>::~CCallResult'
+d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(109): error C2995: 'CCallback<T,P,bGameserver>::CCallback(T *,void (__thiscall T::* )(P *))' : function template has already been defined
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_common.h(209) : see declaration of 'CCallback<T,P,bGameserver>::CCallback'
+d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(153): error C2365: 'k_iSteamGameServerCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(153) : see declaration of 'k_iSteamGameServerCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(154): error C2365: 'k_iSteamFriendsCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(154) : see declaration of 'k_iSteamFriendsCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(155): error C2365: 'k_iSteamBillingCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(155) : see declaration of 'k_iSteamBillingCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(156): error C2365: 'k_iSteamMatchmakingCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(156) : see declaration of 'k_iSteamMatchmakingCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(157): error C2365: 'k_iSteamContentServerCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(157) : see declaration of 'k_iSteamContentServerCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(158): error C2365: 'k_iSteamAppsCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(158) : see declaration of 'k_iSteamAppsCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(159): error C2365: 'k_iSteamUserStatsCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(159) : see declaration of 'k_iSteamUserStatsCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(160): error C2365: 'k_iSteamNetworkingSocketsCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(160) : see declaration of 'k_iSteamNetworkingSocketsCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(161): error C2365: 'k_iSteamNetworkingMessagesCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(161) : see declaration of 'k_iSteamNetworkingMessagesCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(162): error C2365: 'k_iSteamNetworkingUtilsCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(162) : see declaration of 'k_iSteamNetworkingUtilsCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(163): error C2365: 'k_iSteamRemoteStorageCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(163) : see declaration of 'k_iSteamRemoteStorageCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(164): error C2365: 'k_iSteamGameServerItemsCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(164) : see declaration of 'k_iSteamGameServerItemsCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(165): error C2365: 'k_iSteamGameCoordinatorCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(165) : see declaration of 'k_iSteamGameCoordinatorCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(166): error C2365: 'k_iSteam2AsyncCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(166) : see declaration of 'k_iSteam2AsyncCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(167): error C2365: 'k_iSteamGameStatsCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(167) : see declaration of 'k_iSteamGameStatsCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(168): error C2365: 'k_iSteamHTTPCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(168) : see declaration of 'k_iSteamHTTPCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(169): error C2365: 'k_iSteamScreenshotsCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(169) : see declaration of 'k_iSteamScreenshotsCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(171): error C2365: 'k_iSteamStreamLauncherCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(171) : see declaration of 'k_iSteamStreamLauncherCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(172): error C2365: 'k_iSteamUGCCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(172) : see declaration of 'k_iSteamUGCCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(173): error C2365: 'k_iSteamAppListCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(173) : see declaration of 'k_iSteamAppListCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(174): error C2365: 'k_iSteamMusicRemoteCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(174) : see declaration of 'k_iSteamMusicRemoteCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(175): error C2365: 'k_iSteamGameNotificationCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(175) : see declaration of 'k_iSteamGameNotificationCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(176): error C2365: 'k_iSteamVideoCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(176) : see declaration of 'k_iSteamVideoCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(177): error C2365: 'k_ISteamParentalSettingsCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(177) : see declaration of 'k_ISteamParentalSettingsCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(178): error C2365: 'k_iSteamGameSearchCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(178) : see declaration of 'k_iSteamGameSearchCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(179): error C2365: 'k_iSteamPartiesCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(179) : see declaration of 'k_iSteamPartiesCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(180): error C2365: 'k_iSteamSTARCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(180) : see declaration of 'k_iSteamSTARCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(181): error C2365: 'k_iSteamRemotePlayCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(181) : see declaration of 'k_iSteamRemotePlayCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(182): error C2365: 'k_iSteamChatCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(182) : see declaration of 'k_iSteamChatCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(207): error C2011: 'CSteamAPIContext' : 'class' type redefinition
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(207) : see declaration of 'CSteamAPIContext'
+d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(262): error C2011: 'CSteamGameServerAPIContext' : 'class' type redefinition
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(262) : see declaration of 'CSteamGameServerAPIContext'
+d:\github\better_swarm_sdk\src\public\steam\isteamclient.h(138): error C2365: 'k_iSteamGameServerCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(153) : see declaration of 'k_iSteamGameServerCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\isteamclient.h(139): error C2365: 'k_iSteamFriendsCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(154) : see declaration of 'k_iSteamFriendsCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\isteamclient.h(140): error C2365: 'k_iSteamBillingCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(155) : see declaration of 'k_iSteamBillingCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\isteamclient.h(141): error C2365: 'k_iSteamMatchmakingCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(156) : see declaration of 'k_iSteamMatchmakingCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\isteamclient.h(142): error C2365: 'k_iSteamContentServerCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(157) : see declaration of 'k_iSteamContentServerCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\isteamclient.h(146): error C2365: 'k_iSteamAppsCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(158) : see declaration of 'k_iSteamAppsCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\isteamclient.h(147): error C2365: 'k_iSteamUserStatsCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(159) : see declaration of 'k_iSteamUserStatsCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\isteamclient.h(151): error C2365: 'k_iSteamGameServerItemsCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(164) : see declaration of 'k_iSteamGameServerItemsCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\isteamclient.h(153): error C2365: 'k_iSteamGameCoordinatorCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(165) : see declaration of 'k_iSteamGameCoordinatorCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\isteamclient.h(155): error C2365: 'k_iSteam2AsyncCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(166) : see declaration of 'k_iSteam2AsyncCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\isteamclient.h(156): error C2365: 'k_iSteamGameStatsCallbacks' : redefinition; previous definition was 'enumerator'
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_internal.h(167) : see declaration of 'k_iSteamGameStatsCallbacks'
+d:\github\better_swarm_sdk\src\public\steam\steam_api.h(142): error C2011: 'CCallbackBase' : 'class' type redefinition
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_common.h(128) : see declaration of 'CCallbackBase'
+d:\github\better_swarm_sdk\src\public\steam\steam_api.h(232): error C2953: 'CCallResult' : class template has already been defined
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_common.h(171) : see declaration of 'CCallResult'
+d:\github\better_swarm_sdk\src\public\steam\steam_api.h(307): error C2953: 'CCallback' : class template has already been defined
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_common.h(202) : see declaration of 'CCallback'
+d:\github\better_swarm_sdk\src\public\steam\steam_api.h(315): error C2953: 'CCallbackManual' : class template has already been defined
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_common.h(227) : see declaration of 'CCallbackManual'
+d:\github\better_swarm_sdk\src\public\steam\steam_api.h(318): warning C4005: 'STEAM_CALLBACK' : macro redefinition
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_common.h(105) : see previous definition of 'STEAM_CALLBACK'
+d:\github\better_swarm_sdk\src\public\steam\steam_api.h(321): warning C4005: 'STEAM_CALLBACK_MANUAL' : macro redefinition
+          d:\github\better_swarm_sdk\src\public\steam\steam_api_common.h(110) : see previous definition of 'STEAM_CALLBACK_MANUAL'
+d:\github\better_swarm_sdk\src\launcher_main\main.cpp(66): error C3551: expected a trailing return type
+d:\github\better_swarm_sdk\src\launcher_main\main.cpp(67): error C2440: 'return' : cannot convert from 'FARPROC' to 'int'
+          There is no context in which this conversion is possible
+d:\github\better_swarm_sdk\src\launcher_main\main.cpp(156): error C2146: syntax error : missing ')' before identifier 'PLATFORM_BIN_DIR'
+d:\github\better_swarm_sdk\src\launcher_main\main.cpp(156): error C2059: syntax error : ')'
+d:\github\better_swarm_sdk\src\launcher_main\main.cpp(162): error C2146: syntax error : missing ')' before identifier 'PLATFORM_BIN_DIR'
+d:\github\better_swarm_sdk\src\launcher_main\main.cpp(162): error C2660: 'MessageBoxA' : function does not take 2 arguments
+d:\github\better_swarm_sdk\src\launcher_main\main.cpp(162): error C2059: syntax error : ')'
+d:\github\better_swarm_sdk\src\launcher_main\main.cpp(466): error C2146: syntax error : missing ')' before identifier 'PLATFORM_BIN_DIR'
+d:\github\better_swarm_sdk\src\launcher_main\main.cpp(466): error C2059: syntax error : ')'
+d:\github\better_swarm_sdk\src\launcher_main\main.cpp(471): error C2146: syntax error : missing ')' before identifier 'PLATFORM_BIN_DIR'
+d:\github\better_swarm_sdk\src\launcher_main\main.cpp(471): error C2059: syntax error : ')'

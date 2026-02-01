@@ -1,0 +1,12 @@
+"VGUI_Screens"
+{
+    "weapon_ammo_screen"
+    {
+        "type"          "weapon_ammo_screen"
+
+        "pixelswide"    480
+        "pixelshigh"    240
+
+        "resfile"       "scripts/screens/weapon_ammo_screen.res"
+    }
+}

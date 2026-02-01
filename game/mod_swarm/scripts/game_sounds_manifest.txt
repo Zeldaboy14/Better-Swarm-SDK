@@ -1,0 +1,23 @@
+game_sounds_manifest
+{
+	// The Somme - General Sound Cache
+	"precache_file"		"scripts/game_sounds.txt"
+	"precache_file"		"scripts/sounds/game_sounds_player.txt"
+	"precache_file"		"scripts/sounds/game_sounds_ui.txt"
+	"precache_file"		"scripts/sounds/game_sounds_physics.txt"
+	"precache_file"		"scripts/sounds/game_sounds_vo.txt"
+
+	// Weapon sounds
+	"precache_file"		"scripts/weapons/sounds/artillery.txt"
+	"precache_file"		"scripts/weapons/sounds/g98.txt"
+	"precache_file"		"scripts/weapons/sounds/lewis.txt"
+	"precache_file"		"scripts/weapons/sounds/luger.txt"
+	"precache_file"		"scripts/weapons/sounds/mg08_15.txt"
+	"precache_file"		"scripts/weapons/sounds/grenade.txt"
+	"precache_file"		"scripts/weapons/sounds/smle.txt"
+	"precache_file"		"scripts/weapons/sounds/trenchclub.txt"
+	"precache_file"		"scripts/weapons/sounds/webley.txt"
+	"precache_file"		"scripts/weapons/sounds/trenchgun.txt"
+	"precache_file"		"scripts/weapons/sounds/flamethrower.txt"
+	"precache_file"		"scripts/weapons/sounds/other.txt"
+}

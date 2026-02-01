@@ -1,0 +1,487 @@
+
+//--------------------------------------------------------//
+// _____ _            __                                
+///__   \ |__   ___  / _\ ___  _ __ ___  _ __ ___   ___ 
+//  / /\/ '_ \ / _ \ \ \ / _ \| '_ ` _ \| '_ ` _ \ / _ \
+// / /  | | | |  __/ _\ \ (_) | | | | | | | | | | |  __/
+// \/   |_| |_|\___| \__/\___/|_| |_| |_|_| |_| |_|\___|
+// Copyright The Somme Development Team 2011 ?
+// ----------------------------------------------------------
+
+
+"Voice.Shared.MegaDeath"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_64dB"
+	"pitch"			"PITCH_NORM"
+
+	"rndwave"
+	{
+			"wave"	"player/damage/entente/majorpain1.wav"
+			"wave"	"player/damage/entente/majorpain2.wav"
+	}	
+}
+
+"Voice.Shared.BarbedWire"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_64dB"
+	"pitch"			"PITCH_NORM"
+
+	"rndwave"
+	{
+			"wave"	"player/damage/shared/barbwire1.wav"
+			"wave"	"player/damage/shared/barbwire2.wav"
+			"wave"	"player/damage/shared/barbwire3.wav"
+			"wave"	"player/damage/shared/barbwire4.wav"
+	}	
+}
+
+"Voice.Entente.Death"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_64dB"
+	"pitch"			"PITCH_NORM"
+	
+	"rndwave"
+	{
+			"wave"	"player/damage/entente/megapain1.wav"
+			"wave"	"player/damage/entente/megapain2.wav"
+			//"wave"	"player/damage/entente/megapain3.wav"
+			//"wave"	"player/damage/entente/megapain4.wav"
+			//"wave"	"player/damage/entente/megapain5.wav"
+	}	
+}
+
+"Voice.Entente.Hurt"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_64dB"
+	"pitch"			"PITCH_NORM"
+
+	"rndwave"
+	{
+			"wave"	"player/damage/entente/hurtminor1.wav"
+			"wave"	"player/damage/entente/hurtminor2.wav"
+			"wave"	"player/damage/entente/hurtminor3.wav"
+			"wave"	"player/damage/entente/hurtminor4.wav"
+	}	
+}
+
+"Voice.British.GrenadeArea"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_70dB"
+	
+	"rndwave"
+	{
+			"wave"	"voices/british/br_grenadearea.wav"
+	}	
+}
+
+"Voice.British.Reloading"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_70dB"
+	
+	"rndwave"
+	{
+			"wave"	"voices/british/br_reloading1.wav"
+	}	
+}
+
+"Voice.Central.Death"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_64dB"
+	"pitch"			"PITCH_NORM"
+	
+	"rndwave"
+	{
+			"wave"	"player/damage/central/megapain1.wav"
+			"wave"	"player/damage/central/megapain2.wav"
+			//"wave"	"player/damage/central/megapain3.wav"
+			//"wave"	"player/damage/central/megapain4.wav"
+			//"wave"	"player/damage/central/megapain5.wav"
+	}	
+}
+
+"Voice.Central.Hurt"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_64dB"
+	"pitch"			"PITCH_NORM"
+	
+	"rndwave"
+	{
+			"wave"	"player/damage/central/hurtminor1.wav"
+			"wave"	"player/damage/central/hurtminor2.wav"
+			"wave"	"player/damage/central/hurtminor3.wav"
+			"wave"	"player/damage/central/hurtminor4.wav"
+	}	
+}
+
+"Voice.Central.Reloading"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_70dB"
+	
+	"rndwave"
+	{
+			"wave"	"voices/german/gr_reloading1.wav"
+	}	
+}
+
+"Voice.Central.GrenadeArea"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_70dB"
+	
+	"rndwave"
+	{
+			"wave"	"voices/german/gr_grenadearea.wav"
+	}	
+}
+
+// ----------------------------------------------------------
+// FRENCH VOICE OVER
+// ----------------------------------------------------------
+
+"Voice.French.Reload"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.7"
+	"soundlevel"  "SNDLVL_60dB"
+	
+	"rndwave"
+	{
+			"wave"	"voices/french/fr_reloading1.wav"
+			"wave"	"voices/french/fr_reloading2.wav"
+	}	
+}
+
+"Voice.French.HelpMe"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.7"
+	"soundlevel"  "SNDLVL_60dB"
+	
+	"rndwave"
+	{
+			"wave"	"voices/french/fr_helpme1.wav"
+			"wave"	"voices/french/fr_helpme2.wav"
+	}	
+}
+
+
+
+
+
+
+
+/// -----------------------------------------------------
+//  THE SOMME - General sounds
+/// -----------------------------------------------------
+
+"Somme.Player.PickupAlly"
+{
+	"channel"	"CHAN_BODY"
+	"volume"	"1.0"
+	"pitch"		"90,105"
+	"soundlevel"  "SNDLVL_60dB"
+
+	"rndwave"
+	{
+		"wave"	"player/stance/pickupally1.wav"
+		"wave"	"player/stance/pickupally1.wav"
+		
+	}	
+}
+
+"Somme.Player.PutDownAlly"
+{
+	"channel"	"CHAN_BODY"
+	"volume"	"1.0"
+	"pitch"		"90,105"
+	"soundlevel"  "SNDLVL_60dB"
+
+	"rndwave"
+	{
+		"wave"	"player/stance/putdownally1.wav"
+		"wave"	"player/stance/putdownally2.wav"
+		
+	}	
+}
+
+"Player.GoProne"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"VOL_NORM"
+	"soundlevel"		"SNDLVL_65dB"
+	"pitch"			"PITCH_NORM"
+	"wave"     		"player/stance/goprone.wav"
+}
+
+"Player.UnProne"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"VOL_NORM"
+	"soundlevel"		"SNDLVL_65dB"
+	"pitch"			"PITCH_NORM"
+	"wave"     		"player/stance/unprone.wav"
+}
+
+"Pavot.PickupAmmo"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.9"
+	"soundlevel"  	"SNDLVL_60dB"
+
+	"wave"		"weapons/other/ammopickup.wav"
+}
+
+"Player.Headshot"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"player/headshot1.wav"
+		"wave"	"player/headshot2.wav"
+		"wave"	"player/headshot2.wav"
+	}	
+}
+
+"Player.EquipGasmask"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.9"
+	"soundlevel"  	"SNDLVL_75dB"
+
+	"wave"			"player/stance/equipgasmask.wav"
+}
+
+"Player.UnEquipGasmask"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.9"
+	"soundlevel"  	"SNDLVL_75dB"
+
+	"wave"			"player/stance/unequipgasmask.wav"
+}
+
+"Player.BreatheGasmask"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"		"player/stance/breathegasmask1.wav"
+	}	
+}
+
+"Player.RaiseIronsight"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.9"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"weapons/other/ironsights_raise.wav"
+}
+
+"Player.LowerIronsight"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.9"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"weapons/other/ironsights_raise.wav"
+}
+
+"Player.Breathing"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.4"
+
+	"soundlevel"  "SNDLVL_60dB"
+
+	"rndwave"
+	{
+			"wave"	"player/breath_sprint01.wav"
+			"wave"	"player/breath_sprint02.wav"
+			"wave"	"player/breath_sprint03.wav"
+	}
+}
+
+"Player.Duck"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+
+	"soundlevel"  "SNDLVL_60dB"
+
+	"rndwave"
+	{
+			"wave"	"player/stance/duck1.wav"
+			"wave"	"player/stance/duck2.wav"
+			"wave"	"player/stance/duck3.wav"
+			"wave"	"player/stance/duck4.wav"
+	}
+}
+
+"Player.UnDuck"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_60dB"
+
+	"rndwave"
+	{
+			"wave"	"player/stance/unduck1.wav"
+			"wave"	"player/stance/unduck2.wav"
+			"wave"	"player/stance/unduck3.wav"
+			"wave"	"player/stance/unduck4.wav"
+	}
+}
+
+"Player.Gear"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.1"
+	"soundlevel"  "SNDLVL_60dB"
+
+	"rndwave"
+	{
+			"wave"	"player/gear_foley/gear_movement_01.wav"
+			"wave"	"player/gear_foley/gear_movement_02.wav"
+			"wave"	"player/gear_foley/gear_movement_03.wav"
+			"wave"	"player/gear_foley/gear_movement_04.wav"
+			"wave"	"player/gear_foley/gear_movement_05.wav"
+	}
+}
+
+"Player.Jump"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"VOL_NORM"
+	"soundlevel"		"SNDLVL_65dB"
+	"pitch"			"PITCH_NORM"
+	"wave"			"player/stance/jump.wav"
+}
+
+"Player.DrownStart"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_75dB"
+	"pitch"		"90,110"
+
+	"wave"	"player/pl_drown1.wav"
+}
+
+"Player.Swim"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.5"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"		"player/footsteps/wade5.wav"
+		"wave"		"player/footsteps/wade6.wav"
+		"wave"		"player/footsteps/wade7.wav"
+		"wave"		"player/footsteps/wade8.wav"
+	}
+}
+
+"Player.FallDamage"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.75"
+	"pitch"		"90,110"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"		"player/pl_fallpain1.wav"
+		"wave"		"player/pl_fallpain3.wav"
+	}
+}
+
+"Player.DrownContinue"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_75dB"
+	"pitch"		"90,110"
+
+	"rndwave"
+	{
+		"wave"	"player/pl_drown1.wav"
+		"wave"	"player/pl_drown2.wav"
+		"wave"	"player/pl_drown3.wav"
+	}
+}
+
+"Player.Wade"
+{
+	"channel"	"CHAN_BODY"
+	"volume"	"0.25"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"rndwave"
+	{
+		"wave"	"player/footsteps/wade5.wav"
+		"wave"	"player/footsteps/wade6.wav"
+		"wave"	"player/footsteps/wade7.wav"
+		"wave"	"player/footsteps/wade8.wav"
+	}
+}
+
+"Player.AmbientUnderWater"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.22"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"ambient/water/underwater.wav"
+}
+
+"Player.UseTrain"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.8"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"plats/train_use1.wav"
+}
+
+"Player.UseDeny"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.4"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"common/wpn_select.wav"
+}

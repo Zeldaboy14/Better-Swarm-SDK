@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "sprites/spectator_eye"
+	"$translucent" "1"
+	"$ignorez"     "1"
+}

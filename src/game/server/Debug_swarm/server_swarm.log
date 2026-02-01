@@ -1,0 +1,35 @@
+﻿  ai_movesolver.cpp
+  closedcaptions.cpp
+  collisionutils.cpp
+  compiledcaptionswap.cpp
+  debug_dll_check.cpp
+  dt_send.cpp
+  dt_utlvector_common.cpp
+  dt_utlvector_send.cpp
+  editor_sendcommand.cpp
+  filesystem_helpers.cpp
+  gamehandle.cpp
+  GameStats_BasicStatsFunctions.cpp
+  h_export.cpp
+  init_factory.cpp
+  interpolatortypes.cpp
+  keyframe.cpp
+  language.cpp
+  map_utils.cpp
+  memoverride.cpp
+  networkvar.cpp
+  randoverride.cpp
+  registry.cpp
+  rope_physics.cpp
+  scratchpad3d.cpp
+  ScratchPadUtils.cpp
+  server_class.cpp
+  sheetsimulator.cpp
+  simple_physics.cpp
+  stringregistry.cpp
+  studio.cpp
+  vgui_controls.cpp
+     Creating library .\Debug_swarm\server.lib and object .\Debug_swarm\server.exp
+  server_swarm.vcxproj -> D:\GitHub\better_swarm_sdk\src\game\server\.\Debug_swarm\server.dll
+          1 file(s) copied.
+          1 file(s) copied.

@@ -1,0 +1,38 @@
+"Resource/CreateMultiplayer.res"
+{
+	"CreateMultiplayerGameDialog"
+	{
+		"ControlName"		"CCreateMultiplayerGameDialog"
+		"fieldName"		"CreateMultiplayerGameDialog"
+		"xpos"						"0"
+		"ypos"						"0"
+		"wide"						"700"
+		"tall"						"f0"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+	}
+	"Okbutton"
+	{
+		"ControlName"		"BaseModHybridButton"
+		"fieldName"		"Okbutton"
+		"xpos"			"25"
+		"ypos"			"44"
+		"zpos"			"1"
+		"wide"			"262"
+		"tall"			"124"
+		"autoResize"		"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"labelText"		"Create Game"
+		"textAlignment"		"south-west"
+		"dulltext"		"0"
+		"brighttext"		"1"
+		"Default"		"0"
+		"font"			"Default"
+	}	
+}

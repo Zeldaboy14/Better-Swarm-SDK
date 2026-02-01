@@ -1,0 +1,5 @@
+"SpriteCard"
+{
+        // Original shader: AddTexture
+        "$basetexture" "particles/Materials/dirt_splash"
+}

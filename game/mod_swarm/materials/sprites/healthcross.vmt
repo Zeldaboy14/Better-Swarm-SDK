@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$basetexture" "sprites/healthcross"
+	"$translucent" "1"
+	"$vertexalpha" "1"
+	"$vertexcolor" "1"
+}
+
+	

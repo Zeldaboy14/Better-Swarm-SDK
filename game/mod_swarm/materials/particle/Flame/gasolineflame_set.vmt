@@ -1,0 +1,11 @@
+"spritecard"
+{
+        // Original shader: AddTexture
+        "$basetexture" "particles/Flame/Gasoline_Flame/gasolineflame_set"
+
+        "$additive" 1
+
+	$DEPTHBLEND 1
+	
+//	"$overbrightfactor" 1
+}

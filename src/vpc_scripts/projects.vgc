@@ -1,0 +1,29 @@
+$Project "client"
+{
+	"game\client\client_swarm.vpc"		[$SWARM]
+}
+
+$Project "server"
+{
+	"game\server\server_swarm.vpc"		[$SWARM]
+}
+
+$Project "launcher_main"
+{
+	"launcher_main\launcher_main_swarm.vpc" [$SWARM]
+}
+
+$Project "missionchooser"
+{
+}
+
+
+$Project "shaderlib"
+{
+	"materialsystem\shaderlib\shaderlib.vpc"
+}
+
+$Project "game_shader"
+{
+	"materialsystem\stdshaders\game_shader_dx9_swarm.vpc"	[$SWARM]
+}

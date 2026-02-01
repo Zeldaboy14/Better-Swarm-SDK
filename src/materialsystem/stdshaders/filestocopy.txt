@@ -1,0 +1,6 @@
+..\..\devtools\bin\d3dx9_33.dll 
+..\..\dx10sdk\utilities\dx9_30\dx_proxy.dll 
+C:\ASG\bin\shadercompile.exe 
+C:\ASG\bin\shadercompile_dll.dll 
+C:\ASG\bin\vstdlib.dll 
+C:\ASG\bin\tier0.dll 

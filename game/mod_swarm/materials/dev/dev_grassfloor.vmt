@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Dev/dev_grassfloor"
+	"$surfaceprop" "grass"
+	"%detailtype" "grass_lowdensity"	
+}

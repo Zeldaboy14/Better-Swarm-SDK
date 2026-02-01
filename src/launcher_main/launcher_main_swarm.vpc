@@ -1,0 +1,22 @@
+$Macro OUTBINNAME "swarm"
+
+$Conditional "MOD_LAUNCHER" "1"
+
+$Include "launcher_main.vpc"
+
+$Configuration
+{
+	$Compiler
+	{
+		$PreprocessorDefinitions	"$BASE;MOD_APPID=630" // Replace with your appid if you ship on Steam.
+	}
+}
+
+$Project "Launcher Main (Swarm)"
+{
+    $Folder "Resource Files" [$WINDOWS]
+    {
+        $File   "launcher_main_swarm.rc"
+        $File   "res\swarm.ico"
+    }
+}

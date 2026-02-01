@@ -1,0 +1,22 @@
+$Group "game"
+{
+	"client"
+	"server"
+	"missionchooser"
+}
+
+$Group "shaders"
+{
+	"shaderlib"
+//	"game_shader"
+}
+
+$Group "everything"
+{
+	"client"
+	"server"
+	"missionchooser"
+	"launcher_main"
+	"shaderlib"
+	"game_shader"
+}

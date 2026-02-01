@@ -1,0 +1,57 @@
+default:  fxctmp9_tmp\Water_ps20.inc shaders\fxc\Water_ps20.vcs fxctmp9_tmp\Water_ps20b.inc shaders\fxc\Water_ps20b.vcs fxctmp9_tmp\unlittwotexture_ps20.inc shaders\fxc\unlittwotexture_ps20.vcs fxctmp9_tmp\unlittwotexture_ps20b.inc shaders\fxc\unlittwotexture_ps20b.vcs fxctmp9_tmp\unlittwotexture_vs20.inc shaders\fxc\unlittwotexture_vs20.vcs
+
+fxctmp9_tmp\Water_ps20.inc shaders\fxc\Water_ps20.vcs: Water_ps2x.fxc ..\..\devtools\bin\updateshaders.pl ..\..\devtools\bin\fxc_prep.pl common_fxc.h common_fog_ps_fxc.h common_pragmas.h common_hlsl_cpp_consts.h common_flashlight_fxc.h shader_constant_register_map.h common_vertexlitgeneric_dx9.h common_ps_fxc.h
+	perl ..\..\devtools\bin\fxc_prep.pl   -source "..\.." Water_ps2x.fxc-----Water_ps20
+	echo Water_ps2x.fxc>> filestocopy.txt
+	echo common_fxc.h>> filestocopy.txt
+	echo common_fog_ps_fxc.h>> filestocopy.txt
+	echo common_pragmas.h>> filestocopy.txt
+	echo common_hlsl_cpp_consts.h>> filestocopy.txt
+	echo common_flashlight_fxc.h>> filestocopy.txt
+	echo shader_constant_register_map.h>> filestocopy.txt
+	echo common_vertexlitgeneric_dx9.h>> filestocopy.txt
+	echo common_ps_fxc.h>> filestocopy.txt
+
+fxctmp9_tmp\Water_ps20b.inc shaders\fxc\Water_ps20b.vcs: Water_ps2x.fxc ..\..\devtools\bin\updateshaders.pl ..\..\devtools\bin\fxc_prep.pl common_fxc.h common_fog_ps_fxc.h common_pragmas.h common_hlsl_cpp_consts.h common_flashlight_fxc.h shader_constant_register_map.h common_vertexlitgeneric_dx9.h common_ps_fxc.h
+	perl ..\..\devtools\bin\fxc_prep.pl   -source "..\.." Water_ps2x.fxc-----Water_ps20b
+	echo Water_ps2x.fxc>> filestocopy.txt
+	echo common_fxc.h>> filestocopy.txt
+	echo common_fog_ps_fxc.h>> filestocopy.txt
+	echo common_pragmas.h>> filestocopy.txt
+	echo common_hlsl_cpp_consts.h>> filestocopy.txt
+	echo common_flashlight_fxc.h>> filestocopy.txt
+	echo shader_constant_register_map.h>> filestocopy.txt
+	echo common_vertexlitgeneric_dx9.h>> filestocopy.txt
+	echo common_ps_fxc.h>> filestocopy.txt
+
+fxctmp9_tmp\unlittwotexture_ps20.inc shaders\fxc\unlittwotexture_ps20.vcs: unlittwotexture_ps2x.fxc ..\..\devtools\bin\updateshaders.pl ..\..\devtools\bin\fxc_prep.pl common_vertexlitgeneric_dx9.h shader_constant_register_map.h common_ps_fxc.h common_fxc.h common_pragmas.h common_fog_ps_fxc.h common_hlsl_cpp_consts.h
+	perl ..\..\devtools\bin\fxc_prep.pl   -source "..\.." unlittwotexture_ps2x.fxc-----unlittwotexture_ps20
+	echo unlittwotexture_ps2x.fxc>> filestocopy.txt
+	echo common_vertexlitgeneric_dx9.h>> filestocopy.txt
+	echo shader_constant_register_map.h>> filestocopy.txt
+	echo common_ps_fxc.h>> filestocopy.txt
+	echo common_fxc.h>> filestocopy.txt
+	echo common_pragmas.h>> filestocopy.txt
+	echo common_fog_ps_fxc.h>> filestocopy.txt
+	echo common_hlsl_cpp_consts.h>> filestocopy.txt
+
+fxctmp9_tmp\unlittwotexture_ps20b.inc shaders\fxc\unlittwotexture_ps20b.vcs: unlittwotexture_ps2x.fxc ..\..\devtools\bin\updateshaders.pl ..\..\devtools\bin\fxc_prep.pl common_vertexlitgeneric_dx9.h shader_constant_register_map.h common_ps_fxc.h common_fxc.h common_pragmas.h common_fog_ps_fxc.h common_hlsl_cpp_consts.h
+	perl ..\..\devtools\bin\fxc_prep.pl   -source "..\.." unlittwotexture_ps2x.fxc-----unlittwotexture_ps20b
+	echo unlittwotexture_ps2x.fxc>> filestocopy.txt
+	echo common_vertexlitgeneric_dx9.h>> filestocopy.txt
+	echo shader_constant_register_map.h>> filestocopy.txt
+	echo common_ps_fxc.h>> filestocopy.txt
+	echo common_fxc.h>> filestocopy.txt
+	echo common_pragmas.h>> filestocopy.txt
+	echo common_fog_ps_fxc.h>> filestocopy.txt
+	echo common_hlsl_cpp_consts.h>> filestocopy.txt
+
+fxctmp9_tmp\unlittwotexture_vs20.inc shaders\fxc\unlittwotexture_vs20.vcs: unlittwotexture_vs20.fxc ..\..\devtools\bin\updateshaders.pl ..\..\devtools\bin\fxc_prep.pl common_vs_fxc.h common_hlsl_cpp_consts.h common_fog_vs_fxc.h common_pragmas.h common_fxc.h
+	perl ..\..\devtools\bin\fxc_prep.pl   -source "..\.." unlittwotexture_vs20.fxc-----unlittwotexture_vs20
+	echo unlittwotexture_vs20.fxc>> filestocopy.txt
+	echo common_vs_fxc.h>> filestocopy.txt
+	echo common_hlsl_cpp_consts.h>> filestocopy.txt
+	echo common_fog_vs_fxc.h>> filestocopy.txt
+	echo common_pragmas.h>> filestocopy.txt
+	echo common_fxc.h>> filestocopy.txt
+

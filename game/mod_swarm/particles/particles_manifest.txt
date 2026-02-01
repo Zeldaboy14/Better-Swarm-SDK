@@ -1,0 +1,30 @@
+particles_manifest
+{
+	"file"		"particles/explosions.pcf"
+	"file"		"!particles/bullet_tracers.pcf"
+	"file"		"particles/smg_muzzle_flash.pcf"
+	"file"		"particles/nailtrails.pcf"
+	"file"		"particles/insect_fx.pcf"
+	"file"		"particles/boomer_fx.pcf"
+	"file"		"particles/atmosphere.pcf"
+	"file"		"particles/shell_eject.pcf"
+	"file"		"particles/team_id.pcf"
+	"file"		"particles/screen_fx.pcf"
+
+	// HL2
+	"file"		"particles/error.pcf"
+	"file"		"particles/blood_impact.pcf"
+	"file"		"particles/fire_01.pcf"
+	"file"		"particles/burning_fx.pcf"
+	"file"		"particles/tracer_fx.pcf"
+	"file"		"particles/rain_fx.pcf"
+	"file"		"particles/impact_fx.pcf"
+
+	"file"		"particles/weapon_fx.pcf"
+	"file"		"particles/blood_fx.pcf"
+	"file"		"particles/rain_fx.pcf"
+	"file"		"particles/rain_storm_fx.pcf"
+	"file"		"particles/environmental_fx.pcf"
+	"file"		"particles/explosion_fx.pcf"
+}
+

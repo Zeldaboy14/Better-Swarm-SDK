@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "VGUI/spectaterletterbox_upper"
+	"$translucent" 1
+}
